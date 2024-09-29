@@ -1,0 +1,83 @@
+/* 全局样式 */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #20232a;
+  padding: 20px;
+  color: white;
+}
+
+.body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;  /* 垂直排列元素 */
+  align-items: center;     /* 居中对齐 */
+}
+
+.input {
+  margin-bottom: 20px;
+  width: 100%;             /* 输入框和选择框占满父元素宽度 */
+  max-width: 400px;        /* 最大宽度限制为400px */
+  display: flex;
+  flex-direction: column;  /* 输入框和选择框垂直排列 */
+  align-items: center;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;        /* 文本左对齐 */
+}
+
+input, select {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;             /* 输入框和选择框占满父元素宽度 */
+}
+
+.button {
+  display: flex;
+  flex-direction: column;  /* 按钮垂直排列 */
+  align-items: center;     /* 居中对齐 */
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;             /* 每个按钮占据整个父元素宽度 */
+  max-width: 400px;        /* 最大宽度限制 */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
