@@ -1,0 +1,20 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.203:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 875-595-293
+127.0.0.1 - - [29/Sep/2024 23:04:32] "OPTIONS /generate-dataset HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2024 23:04:32] "POST /generate-dataset HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2024 23:04:36] "OPTIONS /reset-kmeans HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2024 23:04:36] "POST /reset-kmeans HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2024 23:04:37] "OPTIONS /run-kmeans HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2024 23:04:37] "POST /run-kmeans HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2024 23:04:40] "POST /reset-kmeans HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2024 23:04:41] "POST /run-kmeans HTTP/1.1" 200 -
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
